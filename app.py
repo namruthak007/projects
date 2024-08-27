@@ -4,7 +4,7 @@ import pandas as pd
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
 
-model = load_model('mymodel.h5')
+model = load_model('model.h5')
 columns = ['laufkont', 'laufzeit', 'moral', 'verw', 'hoehe', 'sparkont', 'beszeit', 'rate',
            'famges', 'buerge', 'wohnzeit', 'verm', 'alter', 'weitkred', 'Wohn',
            'bishkred', 'beruf', 'pers', 'telef', 'gastarb']
